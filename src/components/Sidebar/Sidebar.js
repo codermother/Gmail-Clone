@@ -24,7 +24,7 @@ function Sidebar() {
       >
         Compose
       </Button>
-      <Link to="/" text-decooration="none">
+      <Link to="/" className="sidebar-link">
         <SidebarOption
           Icon={InboxIcon}
           title="Inbox"
