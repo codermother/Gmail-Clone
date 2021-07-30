@@ -5,13 +5,12 @@ export const mailSlice = createSlice({
   initialState: {
     sendMessageIsOpen: false,
   },
-  // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     openSendMessage: (state) => {
-      state.sendMessageIsOpen += true;
+      state.sendMessageIsOpen = true;
     },
     closeSendMessage: (state) => {
-      state.sendMessageIsOpen -= false;
+      state.sendMessageIsOpen = false;
     },
   },
 });

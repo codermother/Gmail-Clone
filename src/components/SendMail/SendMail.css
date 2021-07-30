@@ -43,7 +43,7 @@
     flex-direction: column;
 }
 
-.sendMail_error {
+.sendMail-error {
     background-color: white;
     color:red;
     text-align: right;
