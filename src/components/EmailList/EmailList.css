@@ -22,3 +22,16 @@
     background-color: white;
     z-index: 999;
 }
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.emalList::-webkit-scrollbar{
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.emailList {
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+   
+}
