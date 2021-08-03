@@ -57,3 +57,25 @@
     margin-right: 20px;
     overflow-wrap: break-word;
 }
+.mail-subject{
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {   
+    .mail-bodyHeader{
+    display: grid !important;
+    margin-left: 0;
+    }
+
+    .mail-time {
+        position: unset;
+        margin-top: 5px;
+    }
+    
+    .mail-bodyHeader > p{
+        margin-left: 0;
+    }
+    .mail-message > p {
+        margin-left: 10px;
+    }
+}

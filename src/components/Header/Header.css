@@ -44,3 +44,18 @@
     padding-right: 20px;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .header-left > .MuiIconButton-root{
+        display: none !important;
+    }
+  
+    .header-middle {
+        margin: 10px 0px;
+    }  
+    .header-right > .MuiIconButton-root{
+        padding: 5px !important;
+        display: none !important;
+    }
+  }

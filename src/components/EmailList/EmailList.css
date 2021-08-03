@@ -35,3 +35,24 @@
     -ms-overflow-style: none; /* IE and Edge */
    
 }
+
+@media only screen and (max-width: 500px) {   
+    
+    .emailList-settingsLeft > .MuiIconButton-root{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .emailList-settingsRight > .MuiIconButton-root{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .emailList-settingsLeft{
+        margin-left: 10px;
+    }
+
+    .emailList-settingsRight{
+        margin-right: 10px;
+    }
+}

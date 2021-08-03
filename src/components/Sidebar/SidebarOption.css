@@ -44,3 +44,10 @@
 .sidebarOption > .MuiSvgIcon-root{
     padding: 5px;
 }
+
+@media only screen and (max-width: 500px) {   
+    .sidebarOption > .MuiSvgIcon-root{
+        display: none;
+    }
+    
+}

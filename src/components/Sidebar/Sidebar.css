@@ -23,3 +23,14 @@
 .sidebar-link{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 500px) {
+    .sidebar-footerIcons > .MuiIconButton-root{
+       padding: 1px !important;
+    }
+
+    .sidebar-compose{
+        margin-left: 3px !important;
+        padding: 10px 8px !important;
+    }
+}
