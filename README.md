@@ -1,4 +1,4 @@
-# Gmsil Clone with ReactJS
+# Gmail Clone with ReactJS
 
 A Gmail Clone that you can sign in with your Google Account, compose a new e-mail and send realtime emails to the project.
 
