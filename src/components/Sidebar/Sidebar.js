@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { openSendMessage } from "../../features/mailSlice";
 
-function Sidebar() {
+function Sidebar({ emails }) {
   const dispatch = useDispatch();
 
   return (
@@ -33,7 +33,7 @@ function Sidebar() {
         <SidebarOption
           Icon={InboxIcon}
           title="Inbox"
-          number={54}
+          number={emails.length}
           selected={true}
         />
       </Link>

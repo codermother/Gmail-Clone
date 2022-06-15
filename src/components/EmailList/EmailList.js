@@ -13,24 +13,8 @@ import PeopleIcon from "@material-ui/icons/People";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import Section from "../Section/Section";
 import EmailRow from "../EmailRow/EmailRow";
-import { db } from "../../firebase";
 
-function EmailList() {
-  const [emails, setEmails] = useState([]);
-
-  useEffect(() => {
-    db.collection("emails")
-      .orderBy("timestamp", "desc")
-      .onSnapshot((snapshot) =>
-        setEmails(
-          snapshot.docs.map((doc) => ({
-            id: doc.id,
-            data: doc.data(),
-          }))
-        )
-      );
-  }, []);
-
+function EmailList({ emails }) {
   return (
     <div className="emailList">
       <div className="emailList-settings">
